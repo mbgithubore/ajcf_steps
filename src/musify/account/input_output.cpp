@@ -8,6 +8,7 @@ namespace musify { namespace io {
     {
         std::cout << question << " ? ";
         std::string value{};
+        std::getline(std::cin, value);
         std::cin >> value;
         return value;
     }
